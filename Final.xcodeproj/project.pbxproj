@@ -34,6 +34,14 @@
 		E4C85E771D768FA000B53458 /* InCodeMappingProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C85E6B1D768FA000B53458 /* InCodeMappingProvider.m */; };
 		E4C85E781D768FA000B53458 /* ObjectMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C85E6E1D768FA000B53458 /* ObjectMapper.m */; };
 		E4C85E791D768FA000B53458 /* ObjectMappingInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C85E701D768FA000B53458 /* ObjectMappingInfo.m */; };
+		E4C85E801D7690BE00B53458 /* Declarations.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C85E7B1D7690BE00B53458 /* Declarations.m */; };
+		E4C85E811D7690BE00B53458 /* OCMapperConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C85E7D1D7690BE00B53458 /* OCMapperConfig.m */; };
+		E4C85E821D7690BE00B53458 /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C85E7F1D7690BE00B53458 /* Parser.m */; };
+		E4C85E8D1D76913C00B53458 /* Coord.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C85E841D76913C00B53458 /* Coord.m */; };
+		E4C85E8E1D76913C00B53458 /* MainObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C85E861D76913C00B53458 /* MainObject.m */; };
+		E4C85E8F1D76913C00B53458 /* Weather.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C85E881D76913C00B53458 /* Weather.m */; };
+		E4C85E901D76913C00B53458 /* WeatherDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C85E8A1D76913C00B53458 /* WeatherDetail.m */; };
+		E4C85E911D76913C00B53458 /* WeatherObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C85E8C1D76913C00B53458 /* WeatherObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,6 +101,22 @@
 		E4C85E6F1D768FA000B53458 /* ObjectMappingInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectMappingInfo.h; sourceTree = "<group>"; };
 		E4C85E701D768FA000B53458 /* ObjectMappingInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectMappingInfo.m; sourceTree = "<group>"; };
 		E4C85E711D768FA000B53458 /* OCMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMapper.h; sourceTree = "<group>"; };
+		E4C85E7A1D7690BE00B53458 /* Declarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Declarations.h; sourceTree = "<group>"; };
+		E4C85E7B1D7690BE00B53458 /* Declarations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Declarations.m; sourceTree = "<group>"; };
+		E4C85E7C1D7690BE00B53458 /* OCMapperConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMapperConfig.h; sourceTree = "<group>"; };
+		E4C85E7D1D7690BE00B53458 /* OCMapperConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCMapperConfig.m; sourceTree = "<group>"; };
+		E4C85E7E1D7690BE00B53458 /* Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
+		E4C85E7F1D7690BE00B53458 /* Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parser.m; sourceTree = "<group>"; };
+		E4C85E831D76913C00B53458 /* Coord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coord.h; sourceTree = "<group>"; };
+		E4C85E841D76913C00B53458 /* Coord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coord.m; sourceTree = "<group>"; };
+		E4C85E851D76913C00B53458 /* MainObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainObject.h; sourceTree = "<group>"; };
+		E4C85E861D76913C00B53458 /* MainObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainObject.m; sourceTree = "<group>"; };
+		E4C85E871D76913C00B53458 /* Weather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weather.h; sourceTree = "<group>"; };
+		E4C85E881D76913C00B53458 /* Weather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weather.m; sourceTree = "<group>"; };
+		E4C85E891D76913C00B53458 /* WeatherDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherDetail.h; sourceTree = "<group>"; };
+		E4C85E8A1D76913C00B53458 /* WeatherDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherDetail.m; sourceTree = "<group>"; };
+		E4C85E8B1D76913C00B53458 /* WeatherObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherObject.h; sourceTree = "<group>"; };
+		E4C85E8C1D76913C00B53458 /* WeatherObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +176,12 @@
 			children = (
 				E4C85E171D768AB800B53458 /* AppDelegate.h */,
 				E4C85E181D768AB800B53458 /* AppDelegate.m */,
+				E4C85E7A1D7690BE00B53458 /* Declarations.h */,
+				E4C85E7B1D7690BE00B53458 /* Declarations.m */,
+				E4C85E7E1D7690BE00B53458 /* Parser.h */,
+				E4C85E7F1D7690BE00B53458 /* Parser.m */,
+				E4C85E7C1D7690BE00B53458 /* OCMapperConfig.h */,
+				E4C85E7D1D7690BE00B53458 /* OCMapperConfig.m */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -177,6 +207,16 @@
 		E4C85E311D768CB200B53458 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E4C85E8B1D76913C00B53458 /* WeatherObject.h */,
+				E4C85E8C1D76913C00B53458 /* WeatherObject.m */,
+				E4C85E831D76913C00B53458 /* Coord.h */,
+				E4C85E841D76913C00B53458 /* Coord.m */,
+				E4C85E851D76913C00B53458 /* MainObject.h */,
+				E4C85E861D76913C00B53458 /* MainObject.m */,
+				E4C85E871D76913C00B53458 /* Weather.h */,
+				E4C85E881D76913C00B53458 /* Weather.m */,
+				E4C85E891D76913C00B53458 /* WeatherDetail.h */,
+				E4C85E8A1D76913C00B53458 /* WeatherDetail.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -352,6 +392,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4C85E761D768FA000B53458 /* CommonLoggingProvider.m in Sources */,
+				E4C85E901D76913C00B53458 /* WeatherDetail.m in Sources */,
 				E4C85E221D768AB900B53458 /* Final.xcdatamodeld in Sources */,
 				E4C85E1C1D768AB800B53458 /* Start.m in Sources */,
 				E4C85E531D768F6400B53458 /* SBJsonStreamWriterAccumulator.m in Sources */,
@@ -362,14 +403,21 @@
 				E4C85E571D768F6400B53458 /* SBJsonWriter.m in Sources */,
 				E4C85E771D768FA000B53458 /* InCodeMappingProvider.m in Sources */,
 				E4C85E191D768AB800B53458 /* AppDelegate.m in Sources */,
+				E4C85E8E1D76913C00B53458 /* MainObject.m in Sources */,
 				E4C85E541D768F6400B53458 /* SBJsonStreamWriterState.m in Sources */,
 				E4C85E4D1D768F6400B53458 /* SBJsonParser.m in Sources */,
 				E4C85E561D768F6400B53458 /* SBJsonUTF8Stream.m in Sources */,
 				E4C85E4E1D768F6400B53458 /* SBJsonStreamParser.m in Sources */,
+				E4C85E911D76913C00B53458 /* WeatherObject.m in Sources */,
 				E4C85E551D768F6400B53458 /* SBJsonTokeniser.m in Sources */,
+				E4C85E821D7690BE00B53458 /* Parser.m in Sources */,
+				E4C85E8D1D76913C00B53458 /* Coord.m in Sources */,
 				E4C85E4C1D768F6400B53458 /* NSObject+SBJson.m in Sources */,
 				E4C85E161D768AB800B53458 /* main.m in Sources */,
+				E4C85E811D7690BE00B53458 /* OCMapperConfig.m in Sources */,
 				E4C85E781D768FA000B53458 /* ObjectMapper.m in Sources */,
+				E4C85E801D7690BE00B53458 /* Declarations.m in Sources */,
+				E4C85E8F1D76913C00B53458 /* Weather.m in Sources */,
 				E4C85E521D768F6400B53458 /* SBJsonStreamWriter.m in Sources */,
 				E4C85E501D768F6400B53458 /* SBJsonStreamParserAdapter.m in Sources */,
 				E4C85E791D768FA000B53458 /* ObjectMappingInfo.m in Sources */,
